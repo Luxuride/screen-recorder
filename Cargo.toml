@@ -1,0 +1,16 @@
+[package]
+name = "screen-capture"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gstreamer-app = { version = "0.23.2", features = ["v1_20"] }
+gstreamer = "0.23.2"
+gstreamer-base = "0.23.2"
+gstreamer-video = "0.23.2"
+gstreamer-utils = "0.23.2"
+scap = { git = "https://github.com/CapSoftware/scap" }
+portal-screencast = "0.1.0"
+ctrlc = "3.4.5"
+dbus = "0.9.7"
+rand = "0.8.5"
